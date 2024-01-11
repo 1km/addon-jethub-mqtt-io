@@ -21,6 +21,8 @@ Home Assistant via [mqtt-io](https://github.com/flyte/mqtt-io)
 - 4 inputs
 - internal stat LED (green/red)
 
+- added zigbee boot and reset 
+
 **Note**: _You still need to use native Home Assistant [1-Wire](https://www.home-assistant.io/integrations/onewire/) integration to expose 1-Wire device
 like temperature sensors `DS18B20`_
 
