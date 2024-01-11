@@ -88,3 +88,16 @@ digital_outputs:
     ha_discovery:
       component: switch
       name: JetHub Relay 3
+ 
+  - name: jethub_zigbee_reset
+    module: gpio
+    pin: 41
+    ha_discovery:
+      component: switch
+      name: JetHub Zigbee RESET
+  - name: jethub_zigbee_boot
+    module: gpio
+    pin: 42
+    ha_discovery:
+      component: switch
+      name: JetHub Zigbee BOOT
